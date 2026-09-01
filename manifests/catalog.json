@@ -1,9 +1,9 @@
 {
   "Channel": 1,
-  "Version": "1.0.1",
-  "PayloadUrl": "https://raw.githubusercontent.com/shelgo0210/skillhub-updates/main/catalog/catalog.db",
-  "PayloadSha256": "53bb128ef97b84826257b1878e0f3ec1491e37ea9c599ee6818b238f90bffef9",
-  "SignatureBase64": "KhInV\u002Bsg9V8TdoVxTqZM/LPxQphB6GMG5NXdAMac98aWtfPxtAptoc6tt7aZpgpn9/nPp/TAl//0GTwrPzo6jw==",
+  "Version": "1.0.2",
+  "PayloadUrl": "https://raw.githubusercontent.com/shelgo0210/skillhub-updates/6f694c651beb6ab82d295c5340df01f37574ed2d/catalog/catalog.db",
+  "PayloadSha256": "e74011946fc57b723102172f1e8d4bd72a3f8a94a6953ae0d451fcbd7211bc20",
+  "SignatureBase64": "QSZ6JHiJkL9l1CoUzqyeBlupxf92QM1nMfQOZTcOpRq6AP3dzFqv\u002B3PW1v5V\u002BwV6I9NnGa3i2VUCcUQPEpQXAw==",
   "MinimumClientVersion": "1.0.0",
   "Provider": null
 }
