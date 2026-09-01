@@ -1,0 +1,9 @@
+{
+  "Channel": 2,
+  "Version": "1.0.0",
+  "PayloadUrl": "https://raw.githubusercontent.com/shelgo0210/skillhub-updates/main/adapters/chatgpt.json",
+  "PayloadSha256": "310a8dbe374cf15e073c60934ac734f9c7f9ea74367e7d91a5584b1710b352c5",
+  "SignatureBase64": "HsrYFRCIkJvkca\u002BQRR9uaUpWBDxJONNVcmr3Y0XcpR3EWWMhfSEANaXu80q1/i9CUVy2TvDHUakJZ\u002BYYiIwqUg==",
+  "MinimumClientVersion": "1.0.0",
+  "Provider": "ChatGPT"
+}

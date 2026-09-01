@@ -1,0 +1,24 @@
+{
+  "Provider": "ChatGPT",
+  "Version": "bundled-1",
+  "MinimumClientVersion": "1.0",
+  "ComposerSelector": "[contenteditable=\u0027true\u0027], textarea",
+  "FileInputSelector": "input[type=\u0027file\u0027]",
+  "SendSelector": "button[data-testid=\u0027send-button\u0027], button[aria-label*=\u0027Send\u0027]",
+  "LoginUrl": "https://chatgpt.com/",
+  "Capabilities": {
+    "Provider": "ChatGPT",
+    "MaximumFiles": 10,
+    "MaximumFileBytes": 20971520,
+    "Extensions": [
+      ".pdf",
+      ".txt",
+      ".docx",
+      ".xlsx",
+      ".png",
+      ".jpg",
+      ".jpeg"
+    ],
+    "SupportsAttachments": true
+  }
+}

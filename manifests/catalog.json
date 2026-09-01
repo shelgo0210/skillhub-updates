@@ -1,0 +1,9 @@
+{
+  "Channel": 1,
+  "Version": "1.0.0",
+  "PayloadUrl": "https://raw.githubusercontent.com/shelgo0210/skillhub-updates/main/catalog/catalog.db",
+  "PayloadSha256": "9405b9fc404a621ac44c13dd7866a7e82182e63a55c633d181d3aa81408317dd",
+  "SignatureBase64": "fJgkJ2IT4vuZggQkOYqZeymrlfYKfdwYap\u002BtSKs1XNgzynAgrknDLogK8y8emx64EerfDfug0LBBsqG28IAUMg==",
+  "MinimumClientVersion": "1.0.0",
+  "Provider": null
+}
