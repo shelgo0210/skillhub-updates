@@ -1,0 +1,3 @@
+# Payload hashes are calculated over exact bytes; do not normalize payload line endings.
+adapters/*.json -text
+catalog/*.db -text
