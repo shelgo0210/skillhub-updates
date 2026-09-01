@@ -1,9 +1,9 @@
 {
   "Channel": 2,
-  "Version": "1.0.2",
-  "PayloadUrl": "https://raw.githubusercontent.com/shelgo0210/skillhub-updates/6f694c651beb6ab82d295c5340df01f37574ed2d/adapters/chatgpt.json",
+  "Version": "1.0.3",
+  "PayloadUrl": "https://raw.githubusercontent.com/shelgo0210/skillhub-updates/dfcacbb6f0a33c2fbb5f7491980bb946314edfbe/adapters/chatgpt.json",
   "PayloadSha256": "60afafbdbdb0507e3b64c98433b7f723e75fe7018fe193c1eded1dee6aa2f987",
-  "SignatureBase64": "AO5oC7dW2D\u002BSk5cJYWUTQXyKmsYbzbDCrLuxdA3GmcTEJLZoU3DoAyWFQQRK\u002Bht2aqKkQwuFzkH6ClRTh8NZWA==",
+  "SignatureBase64": "eQQKaNqPP\u002B/T7/muTlwPfYZDQkjyagoRhsR0uGvEVltOBGH80TtEo58IbmlVdF5cUtfXVDwXxQyOwzhKzDpNOA==",
   "MinimumClientVersion": "1.0.0",
   "Provider": "ChatGPT"
 }
