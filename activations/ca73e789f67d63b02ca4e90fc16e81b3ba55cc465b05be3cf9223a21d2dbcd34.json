@@ -1,8 +1,0 @@
-{
-  "Product": "SkillHub",
-  "CodeHash": "ca73e789f67d63b02ca4e90fc16e81b3ba55cc465b05be3cf9223a21d2dbcd34",
-  "DeviceBindingHash": "8bc3b4270c8cb7d5414256d7aa5c3f167d5cff34d1d99b605642da1dabd11fc7",
-  "IssuedAt": "2026-09-01T10:05:17.552695+00:00",
-  "ActivationExpiresAt": "2026-09-01T11:05:17.552695+00:00",
-  "SignatureBase64": "xJJxh06ISuHVS1d6pwH55cAWENwEjsYAl0HkZ3uVhkpVB49Z2tdue3bapImwQ0JVAbDm/Pc5lGhCrW83uMSRSQ=="
-}
