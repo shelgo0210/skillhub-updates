@@ -1,9 +1,9 @@
 {
   "Channel": 0,
-  "Version": "1.0.0",
-  "PayloadUrl": "https://github.com/shelgo0210/skillhub-updates/releases/download/v1.0.0/SkillHub-1.0.0-win-x64.zip",
-  "PayloadSha256": "ac08c6d805a61a9efaeb0be74acd1b29356ce7cc75269b88fe337d86617cd1b2",
-  "SignatureBase64": "o4X\u002BQlglhcjxRgN/bwf1JTqJOMj8gLKm/As4VRS6Rd9pnRNd9ttepW9P5H3vCjbH0F50w3Fcknj9SEFeMRIyHA==",
+  "Version": "1.0.1",
+  "PayloadUrl": "https://github.com/shelgo0210/skillhub-updates/releases/download/v1.0.1/SkillHub-1.0.1-win-x64.zip",
+  "PayloadSha256": "2d8ee8c6879535f2b1de0999692054fadd85a3a6edc1eef106eb628c9a82533f",
+  "SignatureBase64": "38Q6Gpvr8ztGkTTrQKmI2yilhqW78bZsMaB\u002BFuSfncFwbQfQkHwY2mX\u002B5rr2gqyNbphcm2XtqpNHG6Rxo9RoGg==",
   "MinimumClientVersion": "1.0.0",
   "Provider": null
 }
