@@ -1,0 +1,79 @@
+{
+  "schema": "skillhub.catalog.v2",
+  "protocol_version": 2,
+  "catalog_version": "v2-2026.09.02.1",
+  "published_at": "2026-09-02T11:58:57.4477306+00:00",
+  "minimum_client_version": "0.1.0",
+  "ranking_algorithm_version": "admin-v1",
+  "signature": {
+    "algorithm": "RSA-SHA256",
+    "key_id": "skillhub-v2-prod-1",
+    "value_base64": "cbuB3OBkZE7Q7GM3muz6Fp6iIqhpfcRWVVDj8PoGABwRpYqOzGZoNG9XNZrMaG8hZBmZpF8E2DWHQ6VhOW1HyB6lvuWM7ilUMAGiFRrJrZuJFhS7o+EvnrcQBKHpHg28aRcWyn8kJ/dgTCJSsjK+vr3L4mqj/XoIYH5kgckFjT9qIPceWxcp0Zzz5pRNFoCnf9so7uTcscR8dFbQtF8IdQdTUu+NYSlfi5UjCQ/dbksWUXp5h2j1NIQk98hqFgRpFZj5cmf5L7OvJmEvu169EvJOioz50OXoIeimDfvHDeAymVpd9XEVTVa3KmQ3ynqGqoH4tVKJdx9/j3s8Ia0S8T3eANO6ShBBAe/DtaZFv4pxgkQzNxQQScpkphG7u7U/v3lZ3/xToRvISp67ure7H9PVIvEPBM5dz5bdeZJEt433WJF6YcybgsXrQ1wUj3v9ExrtfSyc2Za1beo6V8aVtc30G++Sw1cnd3RV/OGMOjNLZKj1PQyQ53gKwrpidLGd"
+  },
+  "skills": [
+    {
+      "skill_id": "verbalized-sampling",
+      "display_name_zh": "多样化候选采样",
+      "short_description_zh": "通过先生成多个不同候选方案再进行选择，帮助获得更丰富、更少重复的创意或回答。",
+      "long_description_zh": "适合头脑风暴、创意写作、开放式问答、对话模拟和需要多个备选方案的任务。输入通常是一个需要创意、替代方案或多角度回答的问题，Skill 会指导模型生成若干候选结果并按既定策略选择、合并或展示它们。输出可以是单个筛选后的结果，也可以是供用户挑选的一组候选。该方法中的概率由模型生成，不应视为经过校准的真实概率；使用多个候选也会增加生成开销。",
+      "tags": [
+        "文案"
+      ],
+      "primary_category": "文案与内容",
+      "secondary_category": "通用文案",
+      "author_display_name": "eristoddle",
+      "upstream_owner": "eristoddle",
+      "upstream_repository": "https://github.com/eristoddle/agent-skills",
+      "upstream_skill_path": "skills/verbalized-sampling",
+      "upstream_commit_sha": "0bb8bd82e0db30ac955938914f78685338112c82",
+      "license": "MIT",
+      "license_status": "reported_by_github",
+      "stars_snapshot": 2,
+      "upstream_updated_at": "2026-06-17T01:18:06+00:00",
+      "entrypoint": "SKILL.md",
+      "required_files": [
+        {
+          "relative_path": "SKILL.md",
+          "download_url": "https://raw.githubusercontent.com/eristoddle/agent-skills/0bb8bd82e0db30ac955938914f78685338112c82/skills/verbalized-sampling/SKILL.md",
+          "size_bytes": 3940,
+          "sha256": "70d14de6eba3c840b4662a29bd4ee150051a9e687114d17f001b45454682f06c",
+          "role": "entrypoint"
+        },
+        {
+          "relative_path": "references/prompt-templates.md",
+          "download_url": "https://raw.githubusercontent.com/eristoddle/agent-skills/0bb8bd82e0db30ac955938914f78685338112c82/skills/verbalized-sampling/references/prompt-templates.md",
+          "size_bytes": 1870,
+          "sha256": "2b29699bef96724192bfe4dd38df6ed010417a4f005c992947e22d76637211f5",
+          "role": "reference"
+        },
+        {
+          "relative_path": "references/selection-strategies.md",
+          "download_url": "https://raw.githubusercontent.com/eristoddle/agent-skills/0bb8bd82e0db30ac955938914f78685338112c82/skills/verbalized-sampling/references/selection-strategies.md",
+          "size_bytes": 1341,
+          "sha256": "73199df98209ea251785dc950e536564d7a09d4618430ce83160b3b1a0e5573c",
+          "role": "reference"
+        }
+      ],
+      "contains_scripts": false,
+      "contains_references": true,
+      "contains_assets": false,
+      "web_static_references": [
+        "references/prompt-templates.md",
+        "references/selection-strategies.md"
+      ],
+      "required_local_tools": [],
+      "requires_shell": false,
+      "requires_network": false,
+      "writes_files": false,
+      "supports_web_ai": true,
+      "supports_local_agent": true,
+      "compatibility": "web_and_agent",
+      "risk_note": "候选概率由模型自行给出，并非经过校准的真实概率；生成多个候选会增加上下文和生成开销，且不能保证低概率候选一定更有创意或更高质量。",
+      "demo_input": "请为一个面向大学生的科研笔记应用提出5个彼此明显不同的宣传语方向，并尽量避免常见的“效率工具”措辞。",
+      "demo_output_summary": "生成多个差异化宣传语候选，可附候选概率，并按任务需要展示全部候选、选择一个结果或综合多个候选的优点。",
+      "demo_assets": [],
+      "rank_score": 0,
+      "hot_score": 0
+    }
+  ]
+}
